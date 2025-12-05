@@ -34,6 +34,13 @@ controls:
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
 team_settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/engineering-failing-policies
+      host_batch_size: 0
+      policy_ids:
+        - 8
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
