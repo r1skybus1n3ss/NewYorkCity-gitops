@@ -16,6 +16,10 @@ org_settings:
   host_expiry_settings:
     host_expiry_enabled: true
     host_expiry_window: 30
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/f34b6f9d-2912-417d-9b67-1ea7185e8c72
   server_settings:
     server_url: $FLEET_URL
   org_info:
@@ -25,7 +29,3 @@ org_settings:
   features:
     enable_host_users: true
     enable_software_inventory: true
-webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/f34b6f9d-2912-417d-9b67-1ea7185e8c72
