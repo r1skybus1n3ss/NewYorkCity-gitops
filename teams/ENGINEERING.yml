@@ -40,7 +40,7 @@ team_settings:
       destination_url: https://webhook.site/engineering-failing-policies
       host_batch_size: 0
       policy_ids:
-        - 8
+        - 1676
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
   features:
